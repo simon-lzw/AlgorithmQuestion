@@ -4,8 +4,9 @@
     <option name="GROUP_BY_SEVERITY" value="true" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ce93b51b-4d38-4f35-8c36-eebaeda688fa" name="Default Changelist" comment="">
+    <list default="true" id="ce93b51b-4d38-4f35-8c36-eebaeda688fa" name="Default Changelist" comment="project设置">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/AlgorithmQuestion/xiaohao_algorithm/array_series/IntersectionOfTwoArrays.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/AlgorithmQuestion/xiaohao_algorithm/array_series/IntersectionOfTwoArrays.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -66,10 +67,11 @@
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="Errors" />
+    <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
+    <property name="settings.editor.selected.configurable" value="editor.preferences.appearance" />
     <property name="typescript.add.unambiguous.imports.on.the.fly" value="true" />
   </component>
-  <component name="RunManager" selected="Application.DeserialTest">
+  <component name="RunManager" selected="Application.IntersectionOfTwoArrays">
     <configuration name="DeserialTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.learncode.serial.DeserialTest" />
       <module name="AlgorithmQuestion" />
@@ -111,9 +113,9 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.IntersectionOfTwoArrays" />
         <item itemvalue="Application.DeserialTest" />
         <item itemvalue="Application.SerialTest" />
-        <item itemvalue="Application.IntersectionOfTwoArrays" />
       </list>
     </recent_temporary>
   </component>
@@ -146,7 +148,7 @@
       <workItem from="1599202821170" duration="6623000" />
       <workItem from="1599274339948" duration="2581000" />
       <workItem from="1599537432257" duration="2890000" />
-      <workItem from="1599620360632" duration="7245000" />
+      <workItem from="1599620360632" duration="14900000" />
     </task>
     <task id="LOCAL-00001" summary="Create ignore file">
       <created>1599040650099</created>
@@ -169,7 +171,21 @@
       <option name="project" value="LOCAL" />
       <updated>1599635930216</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="project设置">
+      <created>1599636170703</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1599636170703</updated>
+    </task>
+    <task id="LOCAL-00005" summary="题目在进阶问题中问道：如果给定的数组已经排好序呢？你将如何优化你的算法？">
+      <created>1599645817258</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1599645817258</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -193,7 +209,8 @@
     <MESSAGE value="Create ignore file" />
     <MESSAGE value="java类中 serialVersionUID 作用。&#10;序列化实体类 Person;&#10;序列化功能 SerialTest;&#10;反序列化功能 DeserialTest;&#10;&#10;serialVersionUID适用于Java的序列化机制。简单来说，Java的序列化机制是通过判断类的serialVersionUID来验证版本一致性的。在进行反序列化时，JVM会把传来的字节流中的serialVersionUID与本地相应实体类的serialVersionUID进行比较，如果相同就认为是一致的，可以进行反序列化，否则就会出现序列化版本不一致的异常，即是InvalidCastException。&#10;&#10;具体的序列化过程是这样的：序列化操作的时候系统会把当前类的serialVersionUID写入到序列化文件中，当反序列化时系统会去检测文件中的serialVersionUID，判断它是否与当前类的serialVersionUID一致，如果一致就说明序列化类的版本与当前类版本是一样的，可以反序列化成功，否则失败。" />
     <MESSAGE value="project设置" />
-    <option name="LAST_COMMIT_MESSAGE" value="project设置" />
+    <MESSAGE value="题目在进阶问题中问道：如果给定的数组已经排好序呢？你将如何优化你的算法？" />
+    <option name="LAST_COMMIT_MESSAGE" value="题目在进阶问题中问道：如果给定的数组已经排好序呢？你将如何优化你的算法？" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
   <component name="WindowStateProjectService">
@@ -213,10 +230,14 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="1063" y="225" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1599631114517" />
-    <state x="265" y="176" width="1376" height="808" key="CommitChangelistDialog2" timestamp="1599636045465">
+    <state x="812" y="379" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1" timestamp="1599637710906">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="265" y="176" width="1376" height="808" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1599636045465" />
+    <state x="812" y="379" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/0.0.1920.1040@0.0.1920.1040" timestamp="1599637710906" />
+    <state x="331" y="104" width="1376" height="808" key="CommitChangelistDialog2" timestamp="1599645816594">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="331" y="104" width="1376" height="808" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1599645816594" />
     <state x="408" y="236" width="1368" height="685" key="DiffContextDialog" timestamp="1599209412092">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -229,46 +250,54 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="753" y="389" width="373" height="165" key="Github.CreateGistDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1599040100995" />
-    <state width="1268" height="275" key="GridCell.Tab.0.bottom" timestamp="1599635182037">
+    <state width="1268" height="340" key="GridCell.Tab.0.bottom" timestamp="1599645613077">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1268" height="275" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1599635182037" />
-    <state width="1268" height="275" key="GridCell.Tab.0.center" timestamp="1599635182037">
+    <state width="1268" height="340" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1599645613077" />
+    <state width="1268" height="340" key="GridCell.Tab.0.center" timestamp="1599645613077">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1268" height="275" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1599635182037" />
-    <state width="1268" height="275" key="GridCell.Tab.0.left" timestamp="1599635182037">
+    <state width="1268" height="340" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1599645613077" />
+    <state width="1268" height="340" key="GridCell.Tab.0.left" timestamp="1599645613077">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1268" height="275" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1599635182037" />
-    <state width="1268" height="275" key="GridCell.Tab.0.right" timestamp="1599635182037">
+    <state width="1268" height="340" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1599645613077" />
+    <state width="1268" height="340" key="GridCell.Tab.0.right" timestamp="1599645613077">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1268" height="275" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1599635182037" />
-    <state width="1268" height="275" key="GridCell.Tab.1.bottom" timestamp="1599635182038">
+    <state width="1268" height="340" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1599645613077" />
+    <state width="1268" height="275" key="GridCell.Tab.1.bottom" timestamp="1599645612978">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1268" height="275" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1599635182038" />
-    <state width="1268" height="275" key="GridCell.Tab.1.center" timestamp="1599635182037">
+    <state width="1268" height="275" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1599645612978" />
+    <state width="1268" height="275" key="GridCell.Tab.1.center" timestamp="1599645612978">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1268" height="275" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1599635182037" />
-    <state width="1268" height="275" key="GridCell.Tab.1.left" timestamp="1599635182037">
+    <state width="1268" height="275" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1599645612978" />
+    <state width="1268" height="275" key="GridCell.Tab.1.left" timestamp="1599645612978">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1268" height="275" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1599635182037" />
-    <state width="1268" height="275" key="GridCell.Tab.1.right" timestamp="1599635182038">
+    <state width="1268" height="275" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1599645612978" />
+    <state width="1268" height="275" key="GridCell.Tab.1.right" timestamp="1599645612978">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1268" height="275" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1599635182038" />
+    <state width="1268" height="275" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1599645612978" />
     <state x="638" y="208" key="IDE.errors.dialog" timestamp="1599635112986">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="638" y="208" key="IDE.errors.dialog/0.0.1920.1040@0.0.1920.1040" timestamp="1599635112986" />
-    <state x="525" y="244" key="SettingsEditor" timestamp="1599629833707">
+    <state x="525" y="244" key="SettingsEditor" timestamp="1599638467440">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="525" y="244" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1599629833707" />
+    <state x="525" y="244" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1599638467440" />
+    <state width="498" height="446" key="SwitcherDM" timestamp="1599638014536">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="498" height="446" key="SwitcherDM/0.0.1920.1040@0.0.1920.1040" timestamp="1599638014536" />
+    <state x="656" y="248" key="Vcs.Push.Dialog.v2" timestamp="1599645823581">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="656" y="248" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1599645823581" />
     <state x="620" y="300" key="com.intellij.ide.util.TipDialog" timestamp="1599620365570">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -277,17 +306,17 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="902" y="737" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1920.1040@0.0.1920.1040" timestamp="1599635365082" />
-    <state x="608" y="348" key="extract.method.dialog" timestamp="1599621864932">
+    <state x="608" y="348" key="extract.method.dialog" timestamp="1599637081165">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="608" y="348" key="extract.method.dialog/0.0.1920.1040@0.0.1920.1040" timestamp="1599621864932" />
+    <state x="608" y="348" key="extract.method.dialog/0.0.1920.1040@0.0.1920.1040" timestamp="1599637081165" />
     <state x="432" y="87" key="new project wizard" timestamp="1599548653092">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="432" y="87" key="new project wizard/0.0.1920.1040@0.0.1920.1040" timestamp="1599548653092" />
-    <state x="591" y="219" width="672" height="678" key="search.everywhere.popup" timestamp="1599034229612">
+    <state x="591" y="219" width="672" height="678" key="search.everywhere.popup" timestamp="1599638752901">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="591" y="219" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1599034229612" />
+    <state x="591" y="219" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1599638752901" />
   </component>
 </project>
